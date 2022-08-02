@@ -13,7 +13,7 @@ import Instructor from '../Instructor/Instructor';
 
 const Home = () => {
     return (
-        <div>
+        <div className='body' style={{backgroundColor:'#A8A8A8'}}>
             <Cover/>
             <Section1/>
             <Section2/>
