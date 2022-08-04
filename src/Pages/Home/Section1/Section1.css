@@ -1,19 +1,8 @@
 .section1 {
-    background-color: rgb(207, 162, 37);
+    background-color: rgb(233, 196, 85);
+    top: 0px;
+    border-radius: 10px;
 }
-.float-start{
-    font-size: 47px;
-}
-.sec1-header{
-    font-size: 17px;
-    margin-bottom: 0px;
-    font-weight: 700;
-}
-.sec1-detail{
-    font-size: 15px;
-}
-sec-text{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+.sec1-text{
+    margin: 20px;
 }

@@ -1,9 +1,11 @@
 import React from "react";
+import './Cover.css';
+import coverVid from '../../../assets/Video/DJI-Mavic-3.mp4';
 
 const Cover = () => {
   return (
     <>
-      <div class="card mb-3">
+      <div class="card mb-3" style={{ marginBottom: '0px' }}>
         <div class="row g-0">
           <div class="col-md-6">
             <div class="card-body">
@@ -19,11 +21,9 @@ const Cover = () => {
             </div>
           </div>
           <div class="col-md-6">
-            <img
-              src="http://bhaters.abrms.com/uploads/system/b8af129d0f9301a950a335817e117581.jpg"
-              class="img-fluid rounded-start"
-              alt="..."
-            />
+            <video src={coverVid} autoPlay loop muted >
+              <h1>Nahid</h1>
+            </video>
           </div>
           <script type="text/javascript">
             var border_bottom = $('.home-banner-wrap').height() + 242;

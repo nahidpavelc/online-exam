@@ -3,50 +3,18 @@ import "./Section1.css";
 
 const Section1 = () => {
   return (
-    <section className="section1">
-      <section class="home-fact-area">
-        <div class="container-lg">
-          <div class="row">
-            
-            
-
-            <div class="col-md-4 ">
-              <div class="d-flex justify-content-center align-items-center">
-                <div class="col-md-3 d-flex justify-content-center">
-                  <i class="fas fa-bullseye float-start"></i>
-                </div>
-                <div class="col-md-9 text-start">
-                  <h4>14 Online courses</h4>
-                  <p>Explore a variety of fresh topics</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 ">
-              <div class="d-flex justify-content-center align-items-center">
-                <div class="col-md-3 d-flex justify-content-center">
-                  <i class="fa fa-check float-start"></i>
-                </div>
-                <div class="col-md-9 text-start">
-                  <h4>14 Online courses</h4>
-                  <p>Explore a variety of fresh topics</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 ">
-              <div class="d-flex justify-content-center align-items-center">
-                <div class="col-md-3 d-flex justify-content-center">
-                  <i class="fa fa-clock float-start"></i>
-                </div>
-                <div class="col-md-9 text-start">
-                  <h4>14 Online courses</h4>
-                  <p>Explore a variety of fresh topics</p>
-                </div>
-              </div>
-            </div>
-          </div>
+    <div className=" container" >
+      <div className=" section1">
+      <div className="d-flex" style={{margin:'20px'}}>
+        <div className=" col-sm-12 col-md-6 sec1-text">
+          <h1>Want to Attend in your Quiz</h1>
         </div>
-      </section>
-    </section>
+        <div className="col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
+          <button className="btn btn-success"> Login <i class="fa-solid fa-right-to-bracket"></i></button>
+        </div>
+      </div>
+    </div>
+    </div>
   );
 };
 
